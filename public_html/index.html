@@ -7,14 +7,14 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>TODO supply a title</title>
+        <title>jQuery Plugin Footnote</title>
         <meta name="viewport" content="width=device-width">
         
         <link rel="stylesheet" href="libs/twitter-bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="libs/twitter-bootstrap/css/bootstrap-theme.css">
         
 		<style>
-			.footnote-list {
+			.footnotes-list {
 				padding-left: 2em;
 				padding-top: .2em;
 				font-size: 80%;
@@ -25,15 +25,16 @@ and open the template in the editor.
     <body>
         <div class="container">
             <h1>Fußnoten Plugin</h1>
-            <p>jQuery-Plugin um aus einen Bereich Links als Fußnote zu generieren</p>
+            <p class="well">jQuery-Plugin, um aus einen Bereich Links als Fußnote zu generieren</p>
             
+			<h2>Beispielbereich</h2>
             <div id="demo" class="demo">
-				<p><a href="http://google.com">Lorem ipsum</a> dolor sit amet, consectetur adipisicing elit. Adipisci, iusto, rem soluta excepturi sit eius dignissimos deserunt architecto temporibus ducimus expedita voluptates unde assumenda ex delectus. Earum, non nihil saepe.</p>
-				<p><a href="http://bing.com">Eveniet, eaque</a>, enim, fuga numquam et delectus id inventore commodi unde harum ab eos ea ut atque sapiente quia amet provident in cumque dolores. Tempore, nemo dolor iusto blanditiis fugit.</p>
+				<p><a href="http://google.com">Lorem ipsum</a> dolor sit amet, consectetur adipisicing elit. Adipisci, iusto, rem soluta excepturi sit eius dignissimos <a href="http://yahoo.de">deserunt architecto temporibus</a> ducimus expedita voluptates unde assumenda ex delectus. Earum, non nihil saepe.</p>
+				<p><a href="http://bing.com">Eveniet, eaque</a>, enim, fuga numquam et delectus id inventore commodi unde harum ab eos ea ut atque sapiente quia amet provident in cumque dolores. <a href="http://ixquick.com">Tempore</a>, nemo dolor iusto blanditiis fugit.</p>
 			</div>
         </div>
         
-        <script type="text/javascript" src="libs/jquery/jquery.js"></script>
+        <script type="text/javascript" src="libs/jquery/jquery-1.8.0.js"></script>
         <script type="text/javascript" src="libs/twitter-bootstrap/js/bootstrap.js"></script>
         <script type="text/javascript" src="js/jquery.footnote.js"></script>
         
