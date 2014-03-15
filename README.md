@@ -1,10 +1,8 @@
-jQuery-Footnote
-===============
+# jQuery-Footnote
 
 a jQuery plugins for create footnote list from links
 
-Summary
--------
+##Summary
 
 Simple jQuery plugin to equalize heights of multiple elements on a page.
 
