@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>TODO supply a title</title>
+        <meta name="viewport" content="width=device-width">
+        
+        <link rel="stylesheet" href="libs/twitter-bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="libs/twitter-bootstrap/css/bootstrap-theme.css">
+        
+		<style>
+			.footnote-list {
+				padding-left: 2em;
+				padding-top: .2em;
+				font-size: 80%;
+				border-top: thin solid grey;
+			}
+		</style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Fußnoten Plugin</h1>
+            <p>jQuery-Plugin um aus einen Bereich Links als Fußnote zu generieren</p>
+            
+            <div id="demo" class="demo">
+				<p><a href="http://google.com">Lorem ipsum</a> dolor sit amet, consectetur adipisicing elit. Adipisci, iusto, rem soluta excepturi sit eius dignissimos deserunt architecto temporibus ducimus expedita voluptates unde assumenda ex delectus. Earum, non nihil saepe.</p>
+				<p><a href="http://bing.com">Eveniet, eaque</a>, enim, fuga numquam et delectus id inventore commodi unde harum ab eos ea ut atque sapiente quia amet provident in cumque dolores. Tempore, nemo dolor iusto blanditiis fugit.</p>
+			</div>
+        </div>
+        
+        <script type="text/javascript" src="libs/jquery/jquery.js"></script>
+        <script type="text/javascript" src="libs/twitter-bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/jquery.footnote.js"></script>
+        
+        <script>
+            jQuery(function() {
+                $('#demo').footnote();
+            });
+        </script>
+    </body>
+</html>
