@@ -10,6 +10,8 @@
 					.appendTo($(this));
 
 			$('a', $(this)).each(function(index) {
+				var $this = $(this);
+				
 				var a = $('<a>')
 						.attr('href', '#footnote-' + index)
 						.addClass('footnote')
@@ -17,14 +19,14 @@
 
 				$('<sup>')
 						.html(a)
-						.insertAfter($(this));
+						.insertAfter($this);
 
-				$(this).after($(this).html());
+				$this.after($this.html());
 
 				$('<li>')
 						.attr('id', 'footnote-' + index)
 						.addClass('footnote-item')
-						.append($(this))
+						.append($this)
 						.appendTo(ol);
 			});
 		});

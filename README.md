@@ -23,6 +23,13 @@ See index.html in public_html folder.
 
 ##Changelog
 
+###Version 0.0.4
+* change $(this) to $this
+
+###Version
+* change jquery to 1.8.0
+* design css output in example
+
 ###Version 0.0.2
 * add readme.txt
 
